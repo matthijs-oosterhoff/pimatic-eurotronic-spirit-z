@@ -30,4 +30,8 @@ module.exports = {
       description: "The defined eco mode temperature"
       type: "number"
       default: 16
+    externalTemp:
+      description: "The external temperature variable"
+      type: "string"
+      default: "temp"
 }
