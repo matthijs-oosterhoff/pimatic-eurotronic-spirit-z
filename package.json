@@ -1,0 +1,30 @@
+{
+  "name": "pimatic-eurotronic-spirit-z",
+  "description": "Plugin for the Eurotronic Spirit-Z thermostatic valve",
+  "author": "Matthijs Oosterhoff <matthijs.oosterhoff@gmail.com>",
+  "main": "eurotronic-spirit-z-plugin",
+  "files": [
+    "eurotronic-spirit-z-plugin.coffee",
+    "plugin-config-schema.coffee",
+    "README.md"
+  ],
+  "version": "1.0.0",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/wm-domotics/pimatic-eurotronic-spirit-z.git"
+  },
+  "configSchema": "plugin-config-schema.coffee",
+  "dependencies": {
+    "pimatic-plugin-commons": "^0.9.3"
+  },
+  "peerDependencies": {
+    "pimatic": "0.9.*",
+    "pimatic-zwave-usb": ">=0.0.10"
+  },
+  "engines": {
+    "node": "4.8.x",
+    "npm": "2.15.x"
+  },
+  "license": "GNU GPL 2"
+}
